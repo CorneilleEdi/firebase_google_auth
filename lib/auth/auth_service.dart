@@ -29,8 +29,9 @@ class AuthService {
     }
   }
 
-  Future<void> signOut() {
+  Future<void> signOut() async{
     print('Log out .....');
-    return _auth.signOut();
+    await _googleSignIn.signOut();
+    await  _auth.signOut();
   }
 }

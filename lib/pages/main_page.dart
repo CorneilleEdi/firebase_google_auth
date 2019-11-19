@@ -33,8 +33,8 @@ class _MainPageState extends State<MainPage> {
           children: <Widget>[
             Card(
               child: Container(
-                padding: const EdgeInsets.all(16),
-                width: double.infinity,
+                padding: const EdgeInsets.symmetric(horizontal:16, vertical: 32),
+                
                 child: Column(
                   children: <Widget>[
                     CircleAvatar(
@@ -62,7 +62,7 @@ class _MainPageState extends State<MainPage> {
                 Navigator.of(context)
                     .pushNamedAndRemoveUntil('/', (route) => false);
               },
-              minWidth: double.infinity,
+              
               height: 50,
               child: Text(
                 'LOGOUT',

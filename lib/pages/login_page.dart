@@ -41,6 +41,7 @@ class _LoginPageState extends State<LoginPage> {
                   "Login",
                   style: TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
                 ),
+                SizedBox(height: 16,),
                 Text(
                   'Google login with firebase',
                   style: TextStyle(color: Colors.grey),
@@ -65,10 +66,10 @@ class _LoginPageState extends State<LoginPage> {
               minWidth: double.infinity,
               height: 50,
               child: Text(
-                'GOOGLE SIGN IN',
+                'SIGN IN WITH GOOGLE',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
-              color: Colors.red,
+              color: Theme.of(context).primaryColor,
               textColor: Colors.white,
             ),
           ],

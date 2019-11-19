@@ -9,14 +9,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Firebase Anonymous Auth',
+      title: 'Google Sign In',
 
       theme: ThemeData(
         primarySwatch: Colors.blue,
         primaryColor: Color(0XFF6D3FFF),
         accentColor: Color(0XFF233C63),
-        fontFamily: 'Nunito',
-        brightness: Brightness.light,
+        brightness: Brightness.dark,
+        fontFamily: 'RobotoMono',
         buttonTheme: ButtonThemeData(),
       ),
 

@@ -28,6 +28,6 @@ flutter:
   uses-material-design: true
 
   fonts:
-    - family: Nunito
+    - family: RobotoMono
       fonts:
-        - asset: fonts/Nunito-Regular.ttf
+        - asset: fonts/RobotoMono-Regular.ttf
